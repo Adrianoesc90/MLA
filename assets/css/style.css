@@ -1,0 +1,243 @@
+.bg-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -99999;
+}
+
+.color-changer {
+    margin: 20px 0;
+}
+
+.color-changer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.color-changer ul li {
+    float: left;
+    width: 20%;
+}
+
+.color-changer ul li span {
+    display: block;
+    text-indent: -999em;
+    cursor: pointer;
+}
+
+.color-changer ul li span:hover {
+    position: relative;
+    opacity: 0.9;
+}
+
+.color-changer ul li span:active {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.ec-menu {
+    cursor:pointer
+}
+
+.ec-menu .ec-icon {
+    float: right;
+    font-size: 1.2em;
+}
+
+.ec-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ec-menu ul li span {
+    display: block;
+    text-decoration: none;
+    border-left: 1px solid #ddd;
+}
+
+.ec-menu ul li span:hover,
+.ec-menu ul li.open > span {
+    color: #000;
+}
+
+.ec-menu ul li span:hover,
+.ec-menu ul li.open span {
+    border-color: #ddd;
+}
+
+.ec-menu .ec-list > li > span {
+    padding: 8px 15px;
+    color: #777;
+    font-weight: 500;
+}
+
+.ec-menu .sub-menu {
+    display: none;
+}
+
+.ec-menu .sub-menu > li > span {
+    padding: 5px 25px;
+    color: #999;
+    font-weight: 500;
+}
+
+.ec-menu .sub-menu .sub-menu > li > span {
+    padding-left: 35px;
+}
+
+/* Hover / Open */
+.ec-menu .open > span > .ec-icon:before {
+    content: '\F235';
+}
+
+/* Transition */
+.ec-menu ul li span {
+    transition: all 0.24s ease-in-out;
+}
+
+.offcanvas-header {
+    display:block;
+}
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.menucaos li span:hover, .menucaos li.open > span {
+    color: #a492f7 !important;
+}
+.menucaos li span:hover, .menucaos li.open span {
+    border-color: #a492f7 !important;
+}
+
+.menuelemental li span:hover, .menuelemental li.open > span {
+    color: #42964a !important;
+}
+.menuelemental li span:hover, .menuelemental li.open span {
+    border-color: #42964a !important;
+}
+
+.menuluz li span:hover, .menuluz li.open > span {
+    color: #42964a !important;
+}
+.menuluz li span:hover, .menuluz li.open span {
+    border-color: #42964a !important;
+}
+
+.menumarcial li span:hover, .menumarcial li.open > span {
+    color: #42964a !important;
+}
+.menumarcial li span:hover, .menumarcial li.open span {
+    border-color: #42964a !important;
+}
+
+.menuorden li span:hover, .menuorden li.open > span {
+    color: #42964a !important;
+}
+.menuorden li span:hover, .menuorden li.open span {
+    border-color: #42964a !important;
+}
+
+.menuoscuridad li span:hover, .menuoscuridad li.open > span {
+    color: #42964a !important;
+}
+.menuoscuridad li span:hover, .menuoscuridad li.open span {
+    border-color: #42964a !important;
+}
+
+.menutech li span:hover, .menutech li.open > span {
+    color: #42964a !important;
+}
+.menutech li span:hover, .menutech li.open span {
+    border-color: #42964a !important;
+}
+
+
+
+.testimg {
+	
+    
+}
+.fondo1{
+    font-size:20px;
+    vertical-align: middle;
+}
+
+.menuBG_Ais {
+    background-image: url('../imagenes/heroes/iconos/Ais_a.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    font-size:25px;
+    font-weight: bold !important;
+    --bs-card-inner-border-radius: none !important;
+    border-radius: 0px !important;
+    
+}
+.menuBG_Ais:hover{
+    background-image: url('../imagenes/heroes/iconos/Ais_b.jpg');
+    color:#42964a !important;
+}
+.sombreado {
+    text-shadow: 3px 0 #000, -3px 0 #000, 0 3px #000, 0 -3px #000, 2px 2px #000, -2px -2px #000, 2px -2px #000, -2px 2px #000;
+    text-decoration: none !important;
+}
+
+.linkElemental{
+    color:#f1f1f1 !important;
+}
+
+.bg_Ais span {
+    background: black url('../imagenes/heroes/iconos/Ais2.jpg') 0 0 no-repeat;
+}
+
+.bg_ span {
+    background-size: 0 0;
+    color: white;
+    display: inline-block;
+    padding: .3em;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    font-size:27px;
+    font-weight: bold !important;
+}
+.bg_ span:before {
+    background-image: inherit;
+    /*background-position: 50% 50%;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    height: 100%;
+    left: 0px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+    -webkit-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+.bg_ span:hover:before {
+    opacity: 1;
+}
